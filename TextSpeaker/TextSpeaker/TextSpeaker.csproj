@@ -36,10 +36,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Model\Battery.cs" />
-    <Compile Include="Model\Counter.cs" />
-    <Compile Include="Model\ICounter.cs" />
-    <Compile Include="Model\ITextToSpeechService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\BatteryPageViewModel.cs" />
     <Compile Include="ViewModels\CounterPageViewModel.cs" />
@@ -146,6 +142,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TextSpeakerCoreVB\TextSpeakerCoreVB.vbproj">
+      <Project>{8de7a1a7-b350-49b2-8e70-cfa38bb21598}</Project>
+      <Name>TextSpeakerCoreVB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

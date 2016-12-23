@@ -99,6 +99,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\TextSpeakerCoreVB\TextSpeakerCoreVB.vbproj">
+      <Project>{8de7a1a7-b350-49b2-8e70-cfa38bb21598}</Project>
+      <Name>TextSpeakerCoreVB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TextSpeaker\TextSpeaker.csproj">
       <Name>TextSpeaker</Name>
       <Project>{3EF5B526-BCE5-4D67-B2C9-2A5D0746842A}</Project>
