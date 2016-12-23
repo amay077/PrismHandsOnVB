@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSpeaker.UWP", "TextSpea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSpeaker.Tests", "TextSpeaker\TextSpeaker.Tests\TextSpeaker.Tests.csproj", "{26D6564C-91A4-4593-8703-6CFC7B285438}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TextSpeakerCoreVB", "TextSpeakerCoreVB\TextSpeakerCoreVB.vbproj", "{8DE7A1A7-B350-49B2-8E70-CFA38BB21598}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TextSpeakerCoreVB", "TextSpeaker\TextSpeakerCoreVB\TextSpeakerCoreVB.vbproj", "{8DE7A1A7-B350-49B2-8E70-CFA38BB21598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
